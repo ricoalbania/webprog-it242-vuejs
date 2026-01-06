@@ -1,18 +1,12 @@
-/* This ensures only the images inside #app2 are affected */
-#app2 img {
-    width: 70px !important; /* !important forces the size even if Bootstrap interferes */
-    height: auto;
-    margin: 10px;
-}
-
-/* This styles the container box to match your goal image */
-#app2 > div {
-    border: 1px solid black;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white; /* Optional: adds a clean background */
-    margin-top: 10px;
-}
+ #app2 > div {
+      border: solid black 1px;
+      width: 80%;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    img {
+      width: 70px;
+      margin: 10px;
+    }
