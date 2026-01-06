@@ -1,13 +1,16 @@
 
-    #app2 > div {
-      border: solid black 1px;
-      width: 80%;
-      padding: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-    img {
-      width: 70px;
-      margin: 10px;
-    }
+#app2 img {
+  width: 70px !important;
+  height: auto;
+  margin: 10px;
+}
+
+#app2 > div {
+  border: solid black 1px;
+  width: 100%; 
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
