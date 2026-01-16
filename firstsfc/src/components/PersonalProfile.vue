@@ -103,10 +103,9 @@ export default {
 </script>
 
 <style scoped>
-/* Ensure your CSS file is in the correct directory.
-   If using Vite, you can import it like this:
-*/
-@import "../assets/personalprofile.css";
+/* Try this if the CSS file is in the same folder */
+@import "./css/personalprofile.css";
+</style>
 
 .header-footer-custom {
   background-color: #6B705C;
