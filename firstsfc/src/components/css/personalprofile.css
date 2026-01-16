@@ -1,0 +1,101 @@
+body {
+  background-color: #F4F1DE;
+  color: #3D405B; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-footer-custom {
+  background-color: #6B705C !important;
+  color: #FFFFFF;
+  padding: 60px 0;
+}
+
+.content-card {
+  background-color: #FFFFFF !important; 
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border: none;
+}
+
+.nav-link {
+  color: #A5A58D;
+  transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #F4F1DE !important;
+}
+
+.themed-img {
+  border: 6px solid #F4F1DE;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: #6B705C;
+  font-weight: 700;
+  border-left: 5px solid #A5A58D;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+
+.resource-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  display: block;
+  height: 100%;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.resource-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.resource-card h6 {
+  color: #3D405B;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Brand Specific Colors */
+.brand-w3s:hover { border-bottom: 5px solid #04AA6D; }
+.brand-w3s i { color: #04AA6D; }
+
+.brand-gemini:hover { border-bottom: 5px solid #4a86e8; }
+.brand-gemini i { color: #4a86e8; }
+
+.brand-fa:hover { border-bottom: 5px solid #339af0; }
+.brand-fa i { color: #339af0; }
+
+.brand-chatgpt:hover { border-bottom: 5px solid #10a37f; }
+.brand-chatgpt i { color: #10a37f; }
+
+.brand-google:hover { border-bottom: 5px solid #ea4335; }
+.brand-google i { color: #ea4335; }
+
+.brand-github:hover { border-bottom: 5px solid #24292e; }
+.brand-github i { color: #24292e; }
+
+.gallery-trigger {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gallery-trigger:hover {
+  transform: translateY(-5px);
+  filter: brightness(85%);
+  border-color: #6B705C; /* Changes border to your theme green on hover */
+}
+
+/* Makes the "X" button easier to see on dark backdrops */
+.btn-close-white {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
