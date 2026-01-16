@@ -102,6 +102,5 @@ export default {
 }
 </script>
 
-<style scoped>
-@import "./css/personalprofile.css";
+<style src="./css/personalprofile.css/">
 </style>
