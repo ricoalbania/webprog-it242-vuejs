@@ -125,4 +125,3 @@ export default {
   border-radius: 10px;
   background: #fdfdfd;
 }
-</style>
