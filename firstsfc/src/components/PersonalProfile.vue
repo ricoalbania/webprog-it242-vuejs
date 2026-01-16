@@ -104,26 +104,4 @@ export default {
 
 <style scoped>
 @import "./css/personalprofile.css";
-
-.header-footer-custom {
-  background-color: #6B705C !important;
-  color: white !important;
-}
-
-.content-card {
-  background: white !important;
-  border-radius: 15px;
-}
-
-.themed-img {
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.resource-card {
-  text-decoration: none;
-  display: block;
-  border-radius: 10px;
-  background: #fdfdfd;
-}
 </style>
