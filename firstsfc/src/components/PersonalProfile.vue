@@ -103,25 +103,27 @@ export default {
 </script>
 
 <style scoped>
-/* Try this if the CSS file is in the same folder */
 @import "./css/personalprofile.css";
-</style>
 
 .header-footer-custom {
-  background-color: #6B705C;
-  color: white;
+  background-color: #6B705C !important;
+  color: white !important;
 }
+
 .content-card {
-  background: white;
+  background: white !important;
   border-radius: 15px;
 }
+
 .themed-img {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .resource-card {
   text-decoration: none;
   display: block;
   border-radius: 10px;
   background: #fdfdfd;
 }
+</style>
