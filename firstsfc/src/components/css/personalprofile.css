@@ -1,20 +1,23 @@
+/* 1. Global Styles */
 body {
   background-color: #F4F1DE;
   color: #3D405B; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header-footer-custom {
-  background-color: #6B705C !important;
-  color: #FFFFFF;
-  padding: 60px 0;
+h2 {
+  color: #6B705C;
+  font-weight: 700;
+  border-left: 5px solid #A5A58D;
+  padding-left: 15px;
+  margin-bottom: 25px;
 }
 
-.content-card {
-  background-color: #FFFFFF !important; 
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  border: none;
+/* 2. Header & Navigation */
+.header-footer-custom {
+  background-color: #6B705C !important;
+  color: #FFFFFF !important;
+  padding: 60px 0;
 }
 
 .nav-link {
@@ -26,32 +29,44 @@ body {
   color: #F4F1DE !important;
 }
 
+/* 3. Main Content Card */
+.content-card {
+  background-color: #FFFFFF !important; 
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border: none;
+}
+
+/* 4. Images & Gallery */
 .themed-img {
   border: 6px solid #F4F1DE;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   max-width: 100%;
   height: auto;
+  cursor: pointer;
 }
 
-h2 {
-  color: #6B705C;
-  font-weight: 700;
-  border-left: 5px solid #A5A58D;
-  padding-left: 15px;
-  margin-bottom: 25px;
+.gallery-trigger {
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+.gallery-trigger:hover {
+  transform: translateY(-5px);
+  filter: brightness(85%);
+  border-color: #6B705C;
+}
 
+/* 5. Resource Cards */
 .resource-card {
-  border: none;
+  border: 1px solid rgba(0,0,0,0.05);
   border-radius: 12px;
   transition: all 0.3s ease;
   text-decoration: none !important;
   display: block;
   height: 100%;
   background: #fff;
-  border: 1px solid rgba(0,0,0,0.05);
 }
 
 .resource-card:hover {
@@ -65,7 +80,7 @@ h2 {
   font-weight: bold;
 }
 
-/* Brand Specific Colors */
+/* 6. Brand Specific Colors (Hover States) */
 .brand-w3s:hover { border-bottom: 5px solid #04AA6D; }
 .brand-w3s i { color: #04AA6D; }
 
@@ -84,40 +99,7 @@ h2 {
 .brand-github:hover { border-bottom: 5px solid #24292e; }
 .brand-github i { color: #24292e; }
 
-.gallery-trigger {
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.gallery-trigger:hover {
-  transform: translateY(-5px);
-  filter: brightness(85%);
-  border-color: #6B705C; /* Changes border to your theme green on hover */
-}
-
-/* Makes the "X" button easier to see on dark backdrops */
+/* 7. Modal Fixes */
 .btn-close-white {
   filter: invert(1) grayscale(100%) brightness(200%);
-}
-
-.header-footer-custom {
-  background-color: #6B705C !important;
-  color: white !important;
-}
-
-.content-card {
-  background: white !important;
-  border-radius: 15px;
-}
-
-.themed-img {
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.resource-card {
-  text-decoration: none;
-  display: block;
-  border-radius: 10px;
-  background: #fdfdfd;
 }
