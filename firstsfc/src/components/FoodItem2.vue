@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style
+<style>
   .durian {
     border: dashed black 1px;
     display: inline-block;
