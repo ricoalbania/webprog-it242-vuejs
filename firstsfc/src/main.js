@@ -11,7 +11,7 @@ import Comment from './components/Comment.vue'
 
 // The "brain" - makes the carousel and modals work
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-
+import RestApi from './components/RestApi.vue'
 
 const app = createApp(App)
 app.component('food-item', FoodItem)
@@ -19,4 +19,5 @@ app.component('food-item2', FoodItem2)
 app.component('personal-profile', PersonalProfile)
 app.component('comment-form', CommentForm)
 app.component('comment', Comment)
+app.component('rest-api', RestApi)
 app.mount('#app')
